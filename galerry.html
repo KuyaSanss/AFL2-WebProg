@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun time with friends!</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="navBar"></div>
+
+    <section class="bg-white p-10 font-sans">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-2xl font-bold text-[#3A3530]">Photo Gallery</h2>
+            <p class="text-gray-500 mb-8">Selected moments from campus life.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+
+                <div class="md:col-span-2 md:row-span-2">
+                    <img src="./img/group photo.png" alt="Group photo"
+                        class="w-full h-full object-cover rounded-2xl shadow-sm">
+                </div>
+
+                <div class="h-48 md:h-[350px]">
+                    <img src="./img/photo2.jpeg" alt="guitaring with friends"
+                        class="w-full h-full object-cover rounded-2xl shadow-sm">
+                </div>
+
+                <div class="h-48 md:h-full">
+                    <img src="./img/photo3.jpeg" alt="Sunset view"
+                        class="w-full h-full object-cover rounded-2xl shadow-sm">
+                </div>
+
+                <div class="h-48">
+                    <img src="./img/photo4.jpeg" alt="Moment 1"
+                        class="w-full h-full object-cover rounded-2xl shadow-sm">
+                </div>
+                <div class="h-48">
+                    <img src="./img/photo5.jpeg" alt="Moment 2"
+                        class="w-full h-full object-cover rounded-2xl shadow-sm">
+                </div>
+                <div class="h-48">
+                    <img src="./img/photo6.jpeg" alt="Moment 3"
+                        class="w-full h-full object-cover rounded-2xl shadow-sm">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="footerPlaceholder"></div>
+</body>
+
+</html>
